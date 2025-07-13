@@ -6,7 +6,8 @@ body {
   font-family: "Ubuntu", sans-serif;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  align-items: center;
+  justify-content: center;
 }
 
 * {
@@ -14,8 +15,10 @@ body {
 }
 
 header {
-  background-color: #14a79a;
   background: linear-gradient(#14a79a, #6f6e8d);
+  width: 1440px;
+  display: flex;
+  align-items: center;
 }
 
 .nav-list {
@@ -49,24 +52,31 @@ main {
 .avatar {
   width: 200px;
   height: 150px;
-  border-radius: 50%;
+  border-radius: 30%;
   border: 3px #14a79a solid;
-
 }
 
 .container {
-  max-width: 1440px;
+  width: 1440px;
   margin: 0px auto;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 pre {
-    background-color: black;
-    color: green;
-    font-size: large;
-    border-radius: 10px;
+  background-color: black;
+  color: green;
+  font-size: large;
+  border-radius: 10px;
 }
 
-footer {
-  background-color: #14a79a;
-  border: 1px solid green;
+.container-footer {
+  width: 1440px;
+  background: linear-gradient(#6f6e8d, #14a79a);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  padding-right: 100px;
+  padding-left: 100px;
 }
